@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: auto;
+     background-color: burlywood;
+     background-size: cover;
+     background-position: center;
+}
+header
+{
+    position:fixed;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: rgb(44, 203, 60);
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index: 9;
+
+
+}
+
+logo
+{
+    color: black;
+    font-size: large;
+    user-select: none;
+}
+.navigation a
+{
+    position: relative;
+    font-size: 1.3fr;
+    color: black;
+     text-decoration:none;
+     font-family: 500;
+     margin-left: 50px;
+
+
+}
+
+
+
